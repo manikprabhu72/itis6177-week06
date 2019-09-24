@@ -6,11 +6,11 @@ import { ListComponent } from './list/list.component';
 
 const routes: Routes = [
   {
-    path: '/add',
+    path: 'add',
     component:AddComponent
   },
   {
-    path:'/list',
+    path:'list',
     component:ListComponent
   },
   {
