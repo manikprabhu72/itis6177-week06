@@ -13,7 +13,7 @@ export class ListComponent implements OnInit {
 
   ngOnInit() {
     this.http.get('http://68.183.144.13:3000/employees').subscribe((resp) => {
-      this.employeeList = resp.response; 
+      this.employeeList = resp['response']; 
       console.log(resp);
     })
   }
